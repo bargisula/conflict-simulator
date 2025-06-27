@@ -1,0 +1,39 @@
+# 📦 Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.ipynb_checkpoints/
+
+# 🔐 環境設定
+.env
+.venv/
+env/
+venv/
+
+# 🧠 模型與向量器
+models/
+*.pkl
+
+# 📄 資料檔與中介輸出
+data/
+*.csv
+*.log
+*.md
+
+# 📊 視覺化報告與圖片輸出
+*.png
+*.jpg
+*.gif
+
+# 🗂️ Streamlit
+.streamlit/*.toml
+.streamlit/config.toml
+
+# 📚 Jupyter 開發記錄
+notebooks/DEVLOG.md
+*.ipynb
+
+# 💡 Mac / VSCode 特有
+.DS_Store
+.vscode/
